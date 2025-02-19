@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>Ex06 Movies Update</h1>
+      <p>Please select a movie to update from this drop down list and submit.</p>
+    </div>
+
+    <hr>
+
+  {% if messages %}
+    {% for message in messages %}
+      <h3>{{ message }}</h3>
+      {% if not forloop.last %}
+        <br>
+      {% endif %}
+    {% endfor %}
+    <hr>
+    {% elif movies %}
+    <h2>Choose a movie to update</h2>
+    <div>
+      <form method="post">
+        {% csrf_token %}
+        <select name="movie">
+          {% for movie in movies %}
+          <option value="{{ movie.0 }}">{{ movie.0 }}</option>
+          {% endfor %}
+        </select>
+        <br>
+        <input type="text" name="opening_crawl" placeholder="Opening Crawl">
+        <br>
+        <input type="submit" value="Update">
+      </form>
+    </div>
+    <hr>
+  {% endif %}
+
+  </body>
+</html>
