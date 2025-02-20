@@ -1,18 +1,19 @@
 # 📱 Flutter Mobile Projects
 
-Welcome to my Flutter mobile projects repository! 🚀 This repository contains three different mobile applications built using Flutter. Below, you'll find a brief description of each project along with a video preview. 
+Welcome to my Python repo! Here I present some of my Python projects, many made with Django framework.
 
 ## 📌 Projects Overview
 
-### 1️⃣ Project One - Weather App
-An app to fetch weather anywhere. For current, daily and weekly forecast. Using the device GPS sensor to detect current location.
+### Data Management
+A simple project demonstrates data management with Django, using [psycopg2](https://pypi.org/project/psycopg2/) and [Django Models](https://docs.djangoproject.com/en/5.1/topics/db/models/).
 
-#### 🎥 Demo
-![Weather App Gif](https://github.com/Joseph-Enkaoua/Mobile-Applications/blob/main/1%20Weather%20App/Short%20Recording.gif)
+[![### Data Management](https://img.shields.io/badge/GitHub-Visit_Repo-blue?style=for-the-badge&logo=github)](https://github.com/Joseph-Enkaoua/Python/tree/main/Data)
+
 
 ---
 
 ## 📂 Folder Structure
+
 ```
 Flutter Apps/
 │-- Data/
@@ -20,9 +21,12 @@ Flutter Apps/
 ```
 
 ## 🤝 Contributing
+
 Feel free to fork the repo, submit issues, or open pull requests!
 
 ---
+
 ### 🔗 Connect with Me
+
 - GitHub: [Joseph-Enkaoua](https://github.com/Joseph-Enkaoua)
 - LinkedIn: [Joseph Enkaoua](https://www.linkedin.com/in/joseph-e/)
