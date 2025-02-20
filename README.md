@@ -13,9 +13,9 @@ A simple project demonstrates data management with Django, using [psycopg2](http
 ---
 
 ### Sessions and User Management
-A project demonstrates data management with Django, using [psycopg2](https://pypi.org/project/psycopg2/) and [Django Models](https://docs.djangoproject.com/en/5.1/topics/db/models/).
+The project focuses on User management with Django, using Django available tools.
 
-[![### Data Management](https://img.shields.io/badge/GitHub-Visit_Repo-blue?style=for-the-badge&logo=github)](https://github.com/Joseph-Enkaoua/Python/tree/main/Data)
+[![### Data Management](https://img.shields.io/badge/GitHub-Visit_Repo-blue?style=for-the-badge&logo=github)](https://github.com/Joseph-Enkaoua/Python/tree/main/Sessions)
 
 
 ---
