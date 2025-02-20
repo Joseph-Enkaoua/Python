@@ -23,7 +23,7 @@ Through a series of exercises, I gained hands-on experience with:
 
 
 #### 🎥 Demo
-![Django data project gif](https://github.com/Joseph-Enkaoua/Python/blob/main/Session/ScreenRecording.gif)
+![Django sessions project gif](https://github.com/Joseph-Enkaoua/Python/blob/main/Sessions/ScreenRecording.gif)
 
 
 ## 📜 License
