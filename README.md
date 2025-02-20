@@ -1,4 +1,4 @@
-# 📱 Flutter Mobile Projects
+# 🐍 Python Projects
 
 Welcome to my Python repo! Here I present some of my Python projects, many made with Django framework.
 
