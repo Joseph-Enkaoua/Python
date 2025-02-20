@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}{% trans "My Favorites" %}{% endblock %}
+
+{% block content %}
+<h2 class="text-center my-3 py-4 border rounded shadow-sm">{% trans "My Favorite Articles" %}</h2>
+{% if favorite_articles %}
+    <ul class="list-group my-5">
+        {% for favorite in favorite_articles %}
+            <li class="list-group-item">
+                <a href="{% url 'app:article_detail' favorite.article.pk %}" class="text-decoration-none">
+                    {{ favorite.article.title }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p class="alert alert-info">{% trans "You have no favorite articles yet." %}</p>
+{% endif %}
+{% endblock %}
