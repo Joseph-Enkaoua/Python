@@ -13,6 +13,15 @@ An article publishing site built with Django, focusing on mastering advanced fun
 
 ---
 
+### Real-Time Chat Application
+
+A real-time chat project using Django, WebSockets, and AJAX. The project includes user authentication, multiple chatrooms, message history, and live user tracking, all handled dynamically without page refresh.
+
+[![### Real-Time Chat Application](https://img.shields.io/badge/GitHub-Visit_Repo-blue?style=for-the-badge&logo=github)](https://github.com/Joseph-Enkaoua/Python/tree/main/Chat)
+
+
+---
+
 ### Data Management
 
 A simple project demonstrates data management with Django, using [psycopg2](https://pypi.org/project/psycopg2/) and [Django Models](https://docs.djangoproject.com/en/5.1/topics/db/models/).
